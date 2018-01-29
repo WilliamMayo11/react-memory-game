@@ -1,0 +1,54 @@
+.containerInner {
+  height: 75vh;
+  width: 75vw;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.containerOuter {
+  margin-top: 50px;
+}
+
+.header {
+  color: black;
+  font-family: helvetica;
+  font-size: 40px;
+  font-weight: 30px;
+}
+
+.placeholder {
+  font-style: italic;
+}
+
+.allcards {
+  height: 100px;
+  width: 80px;
+  border: 1px solid black;
+  border-radius: 6px;
+  display: 'flex';
+  flex-direction: 'column';
+  justify-content: 'center';
+  box-shadow: 2px 2px 8px;
+}
+
+.animate:active {
+   transform: rotateY(60deg);
+   -webkit-transform: rotateY(60deg);
+   -ms-transform: rotateY(60deg);
+}
+
+.game-board-all {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.container {
+  margin: 0px 15px 21px 15px;
+}
